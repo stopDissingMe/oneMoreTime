@@ -1,0 +1,283 @@
+:root {
+    --dark-blue: #222222;
+    --pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --brown: #474040;
+    --white: #FFFFFF;
+    --grey: #9F9F9F;
+    --another-one-grey: #F8F8F8;
+    --dark-gray: #5D5D5D;
+    --pink-button: #F26376;
+    --light-text: #FBFBFB;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--dark-blue);
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 75px;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.header__button {
+    background-color: transparent;
+    border: none;
+    margin: 0 34px 0 0;
+}
+
+.header__logo {
+    margin: 0 41px 0 40px;
+}
+
+.header__person-link {
+    margin: 0 34px 0 0;
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 63px;
+}
+
+.brand__title {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__title-wrapper {
+    background-color: var(--pink);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 91px;
+}
+
+.brand__subtitle {
+    display: block;
+    font-family: Lato;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.brand__subtitle-pink {
+    color: var(--dark-pink);
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
+
+.offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers__item {
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--brown);
+    margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__item--woman {
+    background-image: url(../img/woman-from-offers.jpg);
+}
+
+.offers__item--accessories {
+    background-image: url(../img/accessories-from-offers.jpg);
+    width: 100%;
+    margin: 0;
+    min-height: 180px;
+}
+
+.offers__item--man {
+    background-image: url(../img/man-from-offers.jpg);
+}
+
+.offers__item--kid {
+    background-image: url(../img/kid-from-offers.jpg);
+}
+
+.offers__woman {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--white);
+}
+
+.offers__paragraph {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: var(--dark-pink)
+}
+
+.fetured__name {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 97px 0 6px 0;
+}
+
+.fetured__paragraph {
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 48px 0;
+}
+
+.fetured__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fetured__item--man-1 {
+    background-color: var(--another-one-grey);
+    width: 360px;
+    min-height: 581px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 581px;
+}
+
+.fetured__topic {
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+}
+
+.fetured__description {
+    color: var(--dark-gray);
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    padding-left: 20px;
+}
+
+.fetured__price {
+    color: var(--dark-pink);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 18px 0 20px 0;
+    padding-left: 20px;
+}
+
+.browse {
+    display: flex;
+    justify-content: center;
+    padding: 48px 0 95px 0;
+}
+
+.browse__button {
+    background-image: url(../img/Vector.png);
+    width: 212px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.browse__text {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--pink-button);
+}
+
+.benefits {
+    background-color: var(--dark-blue);
+    min-height: 341px;
+}
+
+.benefits__list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 103px 0 0 0;
+    flex-grow: 1;
+}
+
+.benefits__item--car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits__name {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--light-text);
+    padding: 28px 0 16px 0;
+}
+
+.benefits__description {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: var(--light-text);
+}
+
